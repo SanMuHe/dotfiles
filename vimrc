@@ -6,7 +6,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Bundle 'gmarik/vundle'
+Bundle 'jnurmine/Zenburn'
+Bundle 'vim-scripts/indentpython.vim'
 "Bundle 'altercation/vim-colors-solarized'
+"Bundle 'scrooloose/syntastic'
 "Bundle 'scrooloose/nerdtree'
 "Bundle 'scrooloose/nerdcommenter'
 
