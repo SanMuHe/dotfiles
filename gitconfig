@@ -1,0 +1,28 @@
+[user]
+	name = SanMuHe
+	email = SanMuHe@gmail.com
+[push]
+	default = simple
+[core]
+    autocrlf = true
+    pager = less -q
+[color]
+    ui = true
+    diff = true
+    grep = auto
+[color "diff"]
+    meta = yellow
+    text = red black bold
+    new = green
+    old = red
+    func = cyan
+[grep]
+    linenumber = true
+    extendedRegexp = true
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    lg = log --graph --pretty=format:'%C(reset)%C(yellow)%h%C(reset) -%C(bold yellow)%d%C(reset) %s %C(green)(%cr) %C(cyan)<%an>%C(reset)' --abbrev-commit --date=relative -n 10
+    g = grep --break --heading --line-number
