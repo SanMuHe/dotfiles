@@ -6,6 +6,8 @@ alias cls="clear"
 alias br='vim ~/.bashrc'
 alias sbr='source ~/.bashrc'
 
+export PS1='\[\e[1;32m\]\w${text}$\[\e[m\] '
+
 # Set config variables first
 GIT_PROMPT_ONLY_IN_REPO=1
 
