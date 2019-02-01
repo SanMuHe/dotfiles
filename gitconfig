@@ -1,11 +1,12 @@
 [user]
-	name = SanMuHe
-	email = SanMuHe@gmail.com
+    name = SanMuHe
+    email = SanMuHe@gmail.com
 [push]
-	default = simple
+    default = simple
 [core]
-    autocrlf = true
+    autocrlf = false
     pager = less -q
+    eol = lf
 [color]
     ui = true
     diff = true
