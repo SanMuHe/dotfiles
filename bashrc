@@ -1,4 +1,9 @@
+# For Linux
 alias ls="ls --color=auto"
+
+# For Mac
+alias ls="ls -FHG"
+
 alias ll='ls -la'
 
 alias cls="clear"
