@@ -11,6 +11,8 @@ alias cls="clear"
 alias br='vim ~/.bashrc'
 alias sbr='source ~/.bashrc'
 
+alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
+
 export PS1='\[\e[1;32m\]\w${text}$\[\e[m\] '
 
 # Set config variables first
