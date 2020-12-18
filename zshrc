@@ -1,9 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/sahe/.oh-my-zsh"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -65,11 +62,16 @@ ZSH_THEME="agnoster"
 plugins=(
   git
   zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 # zsh-autosuggestions installation
 # 1. git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 # 2. cd ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions and then set ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
+
+# zsh-syntax-highlighting installation
+# 1. git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# 2. include zsh-syntax-highlighting as the last plugin
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,14 +104,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Installation -- brew install zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Path variables
-export PATH=$PATH:/Users/sahe/ChromeDriver
-
 # Aliases
 alias zshconfig="vim ~/.zshrc"
 alias tozsh="chsh -s /bin/zsh"
 alias tobash="chsh -s /bin/bash"
-
+alias cls="clear"
+alias ll="ls -l"
+alias la = "ls -la"
