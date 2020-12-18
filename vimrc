@@ -1,19 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Bundle 'gmarik/vundle'
-Bundle 'jnurmine/Zenburn'
-Bundle 'vim-scripts/indentpython.vim'
-"Bundle 'altercation/vim-colors-solarized'
-"Bundle 'scrooloose/syntastic'
-"Bundle 'scrooloose/nerdtree'
-"Bundle 'scrooloose/nerdcommenter'
-
-call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable   " Enable syntax highlight
